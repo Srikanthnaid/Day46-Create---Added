@@ -26,8 +26,8 @@ const createInnerHtml = () => {
                 <td>${addrPayrollData.phone}</td>
                 <td>${addrPayrollData.zipcode}</td>
                 <td>
-                <img id="${addrPayrollData._id}" onclick="remove(this)" alt="delete" src="C:\Users\srikanth naidu\OneDrive\Desktop\addressbooksystem\pages\css\assets\OIP.jpg">
-                <img id="${addrPayrollData._id}" alt="edit" onclick="update(this)" src="C:\Users\srikanth naidu\OneDrive\Desktop\addressbooksystem\pages\css\assets\th.jpg">
+                <img id="${addrPayrollData._id}" onclick="remove(this)" alt="delete" src="/Assets/delete.jpeg">
+                <img id="${addrPayrollData._id}" alt="edit" onclick="update(this)" src="/Assets/modifided.jpeg">
                 </td>
             </tr>
         `;

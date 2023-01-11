@@ -26,7 +26,7 @@ function validateName() {
     });
 }
 function Phonenumber() {
-    const phone = document.querySelector('#phonenumber');
+    const phone = document.querySelector('#phone');
     const phoneError = document.querySelector('.phone-error');
     phone.addEventListener('input', function () {
         if (phone.value.length == 0) {
@@ -43,7 +43,7 @@ function Phonenumber() {
     });
 }
 function Address() {
-    const address = document.querySelector('#Address');
+    const address = document.querySelector('#address');
     const addressError = document.querySelector('.address-error');
     address.addEventListener('input', function () {
         if (address.value.length == 0) {
